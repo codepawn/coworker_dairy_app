@@ -7,14 +7,25 @@
 
   <div class="container">
     <nav class="navbar navbar-default">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+              data-target="#bar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+
       <a class="navbar-brand" href="/">사내일기</a>
-      <ul class="nav navbar-nav">
-        <li><a href="/post">일기쓰기</a></li>
-        <li><a href="#">결재 <span class="badge">2</span></a></li>
-      </ul>
-      <ul class="nav navbar-nav navbar-right">
-          {{> loginButtons }}
-      </ul>
+
+      <div class="collapse navbar-collapse" id="bar">
+
+        <ul class="nav navbar-nav">
+          <li><a href="/post">일기쓰기</a></li>
+          <li><a href="#">결재 <span class="badge">2</span></a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+            {{> loginButtons }}
+        </ul>
+      </div>
     </nav>
       {{>yield}}
   </div>
@@ -51,7 +62,7 @@
 
   <div class="col-sm-6 col-md-3">
     <div class="thumbnail">
-      <h2>{{title}}</h2>
+      <h3>{{title}}</h3>
 
       <p>{{content}}</p>
     </div>
