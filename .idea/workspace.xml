@@ -29,8 +29,8 @@
           <file leaf-file-name="helper_test.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/client/helper_test.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.3340892" vertical-offset="0" max-vertical-offset="1323">
-                  <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+                <state vertical-scroll-proportion="0.23129252" vertical-offset="0" max-vertical-offset="1323">
+                  <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -40,21 +40,21 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="helper_test.html" pinned="false" current-in-tab="true">
+          <file leaf-file-name="helper_test.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/client/helper_test.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.6985351" vertical-offset="12" max-vertical-offset="1411">
-                  <caret line="54" column="2" selection-start-line="54" selection-start-column="2" selection-end-line="54" selection-end-column="2" />
+                <state vertical-scroll-proportion="-38.76923" vertical-offset="199" max-vertical-offset="1615">
+                  <caret line="71" column="24" selection-start-line="71" selection-start-column="24" selection-end-line="71" selection-end-column="24" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="init.js" pinned="false" current-in-tab="false">
+          <file leaf-file-name="init.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/server/init.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
-                  <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+                <state vertical-scroll-proportion="0.21844293" vertical-offset="0" max-vertical-offset="1323">
+                  <caret line="17" column="3" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
                   <folding />
                 </state>
               </provider>
@@ -70,9 +70,9 @@
         <option value="$PROJECT_DIR$/helper_test.js" />
         <option value="$PROJECT_DIR$/helper_test.html" />
         <option value="$PROJECT_DIR$/model/collection.js" />
+        <option value="$PROJECT_DIR$/client/helper_test.html" />
         <option value="$PROJECT_DIR$/client/helper_test.js" />
         <option value="$PROJECT_DIR$/server/init.js" />
-        <option value="$PROJECT_DIR$/client/helper_test.html" />
       </list>
     </option>
   </component>
@@ -175,7 +175,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/JEnglish-master" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/myFriends-master" />
     <property name="HbShouldOpenHtmlAsHb" value="enabled" />
     <property name="js.meteor.project" value="true" />
     <property name="js.meteor.library.was.enabled" value="true" />
@@ -300,26 +300,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/init.js">
+    <entry file="file://$PROJECT_DIR$/client/helper_test.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
-          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+        <state vertical-scroll-proportion="-38.76923" vertical-offset="199" max-vertical-offset="1615">
+          <caret line="71" column="24" selection-start-line="71" selection-start-column="24" selection-end-line="71" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/helper_test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3340892" vertical-offset="0" max-vertical-offset="1323">
-          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.23129252" vertical-offset="0" max-vertical-offset="1323">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/helper_test.html">
+    <entry file="file://$PROJECT_DIR$/server/init.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6985351" vertical-offset="12" max-vertical-offset="1411">
-          <caret line="54" column="2" selection-start-line="54" selection-start-column="2" selection-end-line="54" selection-end-column="2" />
+        <state vertical-scroll-proportion="0.21844293" vertical-offset="0" max-vertical-offset="1323">
+          <caret line="17" column="3" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
           <folding />
         </state>
       </provider>
