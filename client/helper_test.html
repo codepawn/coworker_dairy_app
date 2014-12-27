@@ -1,5 +1,5 @@
 <head>
-  <title>북팔 사내일기</title>
+  <title>사내일기</title>
 </head>
 
 
@@ -7,9 +7,10 @@
 
   <div class="container">
     <nav class="navbar navbar-default">
-      <a class="navbar-brand" href="/">북팔 사내일기</a>
+      <a class="navbar-brand" href="/">사내일기</a>
       <ul class="nav navbar-nav">
         <li><a href="/post">일기쓰기</a></li>
+        <li><a href="#">결재 <span class="badge">2</span></a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
           {{> loginButtons }}
@@ -29,8 +30,7 @@
     </div>
     <div class="form-group">
       <div class="controls">
-        <input name="content" id="content" type="text" value="" placeholder="내용 오늘 일어난일은?" class="form-control"
-               rows="3"/>
+        <input name="content" id="content" type="text" value="" placeholder="내용 오늘 일어난일은?" class="form-control"/>
       </div>
     </div>
     <input type="submit" value="등록하기" class="btn btn-primary"/>
