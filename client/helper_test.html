@@ -1,0 +1,59 @@
+<head>
+  <title>북팔 사내일기</title>
+</head>
+
+
+<template name="navBar">
+
+  <div class="container">
+    <nav class="navbar navbar-default">
+      <a class="navbar-brand" href="/">북팔 사내일기</a>
+      <ul class="nav navbar-nav">
+        <li><a href="/post">일기쓰기</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+          {{> loginButtons }}
+      </ul>
+    </nav>
+      {{>yield}}
+  </div>
+</template>
+
+
+<template name="post">
+  <form class="main form">
+    <div class="form-group">
+      <div class="controls">
+        <input name="title" id="title" type="text" value="" placeholder="제목 뭐라고 부를껀가요" class="form-control"/>
+      </div>
+    </div>
+    <div class="form-group">
+      <div class="controls">
+        <input name="content" id="content" type="text" value="" placeholder="내용 오늘 일어난일은?" class="form-control"
+               rows="3"/>
+      </div>
+    </div>
+    <input type="submit" value="등록하기" class="btn btn-primary"/>
+  </form>
+</template>
+
+
+<template name="front">
+
+  <div class="row">
+      {{#each dairys}}
+          {{>dairysItem}}
+      {{/each}}
+  </div>
+</template>
+
+<template name="dairysItem">
+
+  <div class="col-sm-6 col-md-3">
+    <div class="thumbnail">
+      <h2>{{title}}</h2>
+
+      <p>{{content}}</p>
+    </div>
+  </div>
+</template>
