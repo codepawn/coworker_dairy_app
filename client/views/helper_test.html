@@ -9,17 +9,17 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="/">사내일기</a>
+        <a class="navbar-brand" href="/">사내일지</a>
       </div>
 
       <div class="collapse navbar-collapse" id="bar">
-
-        <ul class="nav navbar-nav">
-          <li><a href="post">일기쓰기</a></li>
-          <li><a href="approval">결재 <span class="badge">2{{countBox}}</span></a></li>
-        </ul>
-
           {{#if currentUser}}
+            <ul class="nav navbar-nav">
+              <li><a href="post">일지쓰기</a></li>
+              <li><a href="approval">결재 <span class="badge">2{{countBox}}</span></a></li>
+            </ul>
+
+
             <ul class="nav navbar-nav navbar-right">
                 {{> loginButtons}}
             </ul>
@@ -58,11 +58,25 @@
 
 
 <template name="front">
+
+    {{#if currentUser}}
+    {{else}}
+
+      <div class="alert alert-dismissable alert-warning">
+        <button type="button" class="close" data-dismiss="alert">×</button>
+        <h4>로그인을 해주세요</h4>
+
+        <p>로그인 하시면 모든 기능을 사용하실수 있습니다.<a href="javascript:void(0)" class="alert-link"></a>.</p>
+      </div>
+
+    {{/if}}
+
   <div class="row">
       {{#each dairys}}
           {{>dairysItem}}
       {{/each}}
   </div>
+
 </template>
 
 <template name="dairysItem">
@@ -136,3 +150,5 @@
     </div>
   </div>
 </template>
+
+

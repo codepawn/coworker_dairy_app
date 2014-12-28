@@ -3,12 +3,12 @@ Meteor.startup(function () {
     for (var i = 0; i < 10; i++) {
       if (i % 2) {
         Dairys.insert({
-          title: "오늘의 일기" + i,
+          title: "샘플 일지" + i,
           content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aliquid atque blanditiis commodi consectetur cum deserunt doloribus eaque facilis maiores, mollitia nam nisi obcaecati odit, quia temporibus velit vero voluptas."
         });
       } else {
         Dairys.insert({
-          title: "Lorem ipsum dolor" + i,
+          title: "Sample dairys" + i,
           content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aliquid atque blanditiis commodi consectetur cum deserunt doloribus eaque facilis maiores, mollitia nam nisi obcaecati odit, quia temporibus velit vero voluptas."
         });
       }

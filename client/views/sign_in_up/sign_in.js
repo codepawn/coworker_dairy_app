@@ -30,14 +30,6 @@ Template.signup.events({
       }
     };
 
-    Accounts.validateNewUser(function (user) {
-      if (user.username && user.username.length >= 3) {
-        return true;
-      } else {
-        throw new Meteor.Error(403, '3자리 이상 입력해주세요');
-      }
-    });
-
     Accounts.createUser(info, function (err) {
       if (err) {
         alert('다시시도' + err);
@@ -48,4 +40,3 @@ Template.signup.events({
     })
   }
 });
-
