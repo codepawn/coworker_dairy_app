@@ -1,4 +1,3 @@
-
 Template.front.helpers({
   dairys: function () {
     return Dairys.find();
@@ -17,13 +16,14 @@ Template.post.events({
       Dairys.insert({
         title: title,
         content: content,
-        user_id: userId
+        user_id: userId,
+
       });
       Router.go('main');
     }
-
   }
 });
+
 
 Template.dairysItem.events({
   'click button[id=remove]': function () {

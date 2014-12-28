@@ -53,7 +53,6 @@
 
 
 <template name="front">
-
   <div class="row">
       {{#each dairys}}
           {{>dairysItem}}
@@ -64,21 +63,26 @@
 <template name="dairysItem">
 
   <div class="col-sm-6 col-md-3">
-    <div class="thumbnail">
+    <div class="thumbnail {{clicked}} ">
       <a href="{{pathFor 'dairy.show'}}"><h3>{{title}}</h3></a>
 
       <p>{{content}}</p>
-
-      <button id="remove" class="btn btn-primary btn-flat">Remove<div class="ripple-wrapper"></div></button>
+      
+      <button id="remove" class="btn btn-primary btn-flat">Remove
+        <div class="ripple-wrapper"></div>
+      </button>
     </div>
   </div>
 </template>
 
 <template name="dairysItemList">
-  <p>list</p>
-  {{id}}
-  {{title}}
-  {{content}}
+
+  <div class="thumbnail">
+    <h1>{{title}}</h1>
+
+    <p>{{content}}</p>
+
+  </div>
 
 </template>
 
@@ -87,10 +91,14 @@
 
 
   <select class="form-control" id="genderInput">
+    <option value="사장">사장</option>
+    <option value="전무">전무</option>
     <option value="이사">이사</option>
+    <option value="부장">부장</option>
     <option value="차장">차장</option>
     <option value="과장">과장</option>
-    <option value="과장">사원</option>
+    <option value="대리">대리</option>
+    <option value="사원">사원</option>
 
   </select>
 
