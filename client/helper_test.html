@@ -65,13 +65,21 @@
 
   <div class="col-sm-6 col-md-3">
     <div class="thumbnail">
-      <h3>{{title}}</h3>
+      <a href="{{pathFor 'dairy.show'}}"><h3>{{title}}</h3></a>
 
       <p>{{content}}</p>
 
       <button id="remove" class="btn btn-primary btn-flat">Remove<div class="ripple-wrapper"></div></button>
     </div>
   </div>
+</template>
+
+<template name="dairysItemList">
+  <p>list</p>
+  {{id}}
+  {{title}}
+  {{content}}
+
 </template>
 
 
