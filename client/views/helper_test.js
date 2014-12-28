@@ -27,7 +27,7 @@ Template.post.events({
 
 
 Template.approval.events({
-    
+
 });
 
 Template.dairysItem.events({

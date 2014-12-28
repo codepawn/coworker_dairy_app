@@ -5,14 +5,14 @@ Router.configure({
 
 Router.route('/', function () {
   this.render('front');
-},{
-  name:'main'
+}, {
+  name: 'main'
 });
 
 Router.route('/dairy/:_id', function () {
-  this.render('dairysItemList',{
-    data: function(){
-      return Dairys.findOne({_id:this.params._id});
+  this.render('dairysItemList', {
+    data: function () {
+      return Dairys.findOne({_id: this.params._id});
     }
   });
 }, {
@@ -24,4 +24,9 @@ Router.route('post');
 Router.route('dairys');
 
 Router.route('approval');
+
+Router.route('signin',{name:'signin'});
+
+
+Router.route('signup');
 
