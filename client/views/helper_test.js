@@ -6,6 +6,7 @@ Template.front.helpers({
 
 Template.post.events({
   'submit form': function (evt, tmpl) {
+    //evt.preventDefault();
     var title = tmpl.find('input[name=title]').value;
     var content = tmpl.find('textarea[name=content]').value;
     var userId = Meteor.userId();
@@ -25,9 +26,20 @@ Template.post.events({
 });
 
 
+Template.approval.events({
+    
+});
+
 Template.dairysItem.events({
   'click button[id=remove]': function () {
     Dairys.remove({_id: this._id});
+  }
+});
+
+Template.dairysItemList.events({
+  'click button[id=remove]': function () {
+    Dairys.remove({_id: this._id});
+    Router.go('main');
   }
 });
 

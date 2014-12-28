@@ -1,6 +1,4 @@
-<head>
-  <title>사내일기</title>
-</head>
+
 
 
 <template name="navBar">
@@ -67,7 +65,7 @@
       <a href="{{pathFor 'dairy.show'}}"><h3>{{title}}</h3></a>
 
       <p>{{content}}</p>
-      
+
       <button id="remove" class="btn btn-primary btn-flat">Remove
         <div class="ripple-wrapper"></div>
       </button>
@@ -82,24 +80,52 @@
 
     <p>{{content}}</p>
 
+    <button id="remove" class="btn btn-primary btn-flat">Remove
+      <div class="ripple-wrapper"></div>
+    </button>
   </div>
 
 </template>
 
 
 <template name="approval">
-
+  <p>결재가 올라갈 직업을 선택해주세요</p>
 
   <select class="form-control" id="genderInput">
-    <option value="사장">사장</option>
-    <option value="전무">전무</option>
-    <option value="이사">이사</option>
-    <option value="부장">부장</option>
-    <option value="차장">차장</option>
-    <option value="과장">과장</option>
-    <option value="대리">대리</option>
-    <option value="사원">사원</option>
-
+    <option value="7">사장</option>
+    <option value="6">전무</option>
+    <option value="5">이사</option>
+    <option value="4">부장</option>
+    <option value="3">차장</option>
+    <option value="2">과장</option>
+    <option value="1">대리</option>
+    <option value="0">사원</option>
   </select>
+  <button id="remove" class="btn btn-primary">결재올리기
+    <div class="ripple-wrapper"></div>
+  </button>
+</template>
 
+
+<template name="notFound">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="error-template">
+          <h1>Oops!</h1>
+
+          <h2>404 Not Found</h2>
+
+          <div class="error-details">
+            Sorry, an error has occured, Requested page not found!
+          </div>
+          <div class="error-actions">
+            <a href="{{pathFor 'main'}}" class="btn btn-primary btn-lg">
+              <span class="glyphicon glyphicon-home"></span>Take
+              Me Home </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </template>

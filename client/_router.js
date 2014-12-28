@@ -1,5 +1,6 @@
 Router.configure({
-  layoutTemplate: 'navBar'
+  layoutTemplate: 'navBar',
+  notFoundTemplate: 'notFound'
 });
 
 Router.route('/', function () {
