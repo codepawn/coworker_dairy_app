@@ -1,9 +1,10 @@
-bookpal_homework
+Coworker dairy app
 ================
 
 Coworker dairy app
 
 - Bootstrap Meterial
+- Korean
 
 Demo site
 
