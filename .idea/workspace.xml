@@ -26,11 +26,21 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf>
-          <file leaf-file-name="helper_test.js" pinned="false" current-in-tab="true">
+          <file leaf-file-name="helper_test.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/client/views/helper_test.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.19274376" vertical-offset="0" max-vertical-offset="1323">
+                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1139">
                   <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="init.js" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/server/init.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.23129252" vertical-offset="0" max-vertical-offset="1323">
+                  <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -50,11 +60,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="pub.js" pinned="false" current-in-tab="false">
+          <file leaf-file-name="pub.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/server/pub.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="136">
-                  <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+                <state vertical-scroll-proportion="0.012849584" vertical-offset="0" max-vertical-offset="1323">
+                  <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
                   <folding />
                 </state>
               </provider>
@@ -70,10 +80,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="helper_test.css" pinned="false" current-in-tab="true">
+          <file leaf-file-name="helper_test.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/client/style/helper_test.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.038548753" vertical-offset="0" max-vertical-offset="1323">
+                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
                   <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
                   <folding />
                 </state>
@@ -90,7 +100,6 @@
         <option value="$PROJECT_DIR$/helper_test.js" />
         <option value="$PROJECT_DIR$/helper_test.html" />
         <option value="$PROJECT_DIR$/model/collection.js" />
-        <option value="$PROJECT_DIR$/server/pub.js" />
         <option value="$PROJECT_DIR$/client/sub.js" />
         <option value="$PROJECT_DIR$/client/helper_test.css" />
         <option value="$PROJECT_DIR$/client/helper_test.js" />
@@ -99,12 +108,13 @@
         <option value="$PROJECT_DIR$/client/views/sign_in_up/sign_up.js" />
         <option value="$PROJECT_DIR$/client/views/sign_in_up/sign_in.html" />
         <option value="$PROJECT_DIR$/client/views/sign_in_up/sign_in.js" />
-        <option value="$PROJECT_DIR$/server/init.js" />
         <option value="$PROJECT_DIR$/client/views/helper_test.js" />
         <option value="$PROJECT_DIR$/client/_router.js" />
         <option value="$PROJECT_DIR$/client/views/helper_test.html" />
         <option value="$PROJECT_DIR$/client/mason.js" />
         <option value="$PROJECT_DIR$/client/style/helper_test.css" />
+        <option value="$PROJECT_DIR$/server/init.js" />
+        <option value="$PROJECT_DIR$/server/pub.js" />
       </list>
     </option>
   </component>
@@ -112,8 +122,8 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-253" />
-    <option name="y" value="377" />
+    <option name="x" value="46" />
+    <option name="y" value="168" />
     <option name="width" value="1519" />
     <option name="height" value="1417" />
   </component>
@@ -311,7 +321,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-253" y="377" width="1519" height="1417" extended-state="0" />
+    <frame x="46" y="168" width="1519" height="1417" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -688,13 +698,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/init.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.23129252" vertical-offset="0" max-vertical-offset="1323">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/views/helper_test.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-25.5" vertical-offset="663" max-vertical-offset="2856">
@@ -707,14 +710,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646">
           <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/pub.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="136">
-          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
           <folding />
         </state>
       </provider>
@@ -735,18 +730,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/client/views/helper_test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1139">
+          <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/client/style/helper_test.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.038548753" vertical-offset="0" max-vertical-offset="1323">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
           <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/views/helper_test.js">
+    <entry file="file://$PROJECT_DIR$/server/pub.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.19274376" vertical-offset="0" max-vertical-offset="1323">
-          <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+        <state vertical-scroll-proportion="0.012849584" vertical-offset="0" max-vertical-offset="1323">
+          <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/init.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.23129252" vertical-offset="0" max-vertical-offset="1323">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding />
         </state>
       </provider>
