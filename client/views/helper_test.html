@@ -1,4 +1,4 @@
-<template name="navBar">
+<template name="NavBar">
 
   <div class="container">
     <nav class="navbar navbar-default">
@@ -39,7 +39,7 @@
 </template>
 
 
-<template name="post">
+<template name="Post">
   <form class="main form">
     <div class="form-group">
       <div class="controls">
@@ -58,9 +58,10 @@
 </template>
 
 
-<template name="front">
+<template name="Front">
 
     {{#if currentUser}}
+
     {{else}}
 
       <div class="alert alert-dismissable alert-warning">
@@ -72,30 +73,36 @@
 
     {{/if}}
 
-  <div class="row">
+  <div id="container">
       {{#each dairys}}
-          {{>dairysItem}}
+        <div class="item">
+            {{>DairysItem}}
+        </div>
       {{/each}}
+
+
   </div>
 
 </template>
 
-<template name="dairysItem">
 
-  <div class="col-sm-6 col-md-3">
-    <div class="thumbnail {{clicked}} ">
-      <a href="{{pathFor 'dairy.show'}}"><h3>{{title}}</h3></a>
+<template name="DairysItem">
 
-      <p>{{content}}</p>
 
-      <button id="remove" class="btn btn-primary btn-flat">Remove
-        <div class="ripple-wrapper"></div>
-      </button>
-    </div>
+  <div class="thumbnail">
+    <img src="http://www.online-image-editor.com//styles/2014/images/example_image.png">
+    <a href="{{pathFor 'dairy.show'}}"><h3>{{title}}</h3></a>
+
+    <p>{{content}}</p>
+
+    <button id="remove" class="btn btn-primary btn-flat">Remove
+      <div class="ripple-wrapper"></div>
+    </button>
   </div>
+
 </template>
 
-<template name="dairysItemList">
+<template name="DairysItemList">
 
   <div class="thumbnail">
     <h1>{{title}}</h1>
@@ -110,7 +117,7 @@
 </template>
 
 
-<template name="approval">
+<template name="Approval">
   <p>결재가 올라갈 직업을 선택해주세요</p>
 
   <select class="form-control" id="genderInput">
@@ -129,7 +136,7 @@
 </template>
 
 
-<template name="notFound">
+<template name="NotFound">
   <div class="container">
     <div class="row">
       <div class="col-md-12">

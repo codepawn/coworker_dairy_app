@@ -1,16 +1,16 @@
 Router.configure({
-  layoutTemplate: 'navBar',
+  layoutTemplate: 'NavBar',
   notFoundTemplate: 'notFound'
 });
 
 Router.route('/', function () {
-  this.render('front');
+  this.render('Front');
 }, {
   name: 'main'
 });
 
 Router.route('/dairy/:_id', function () {
-  this.render('dairysItemList', {
+  this.render('DairysItemList', {
     data: function () {
       return Dairys.findOne({_id: this.params._id});
     }

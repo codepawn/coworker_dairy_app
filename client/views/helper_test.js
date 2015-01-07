@@ -1,10 +1,10 @@
-Template.front.helpers({
+Template.Front.helpers({
   dairys: function () {
     return Dairys.find();
   }
 });
 
-Template.post.events({
+Template.Post.events({
   'submit form': function (evt, tmpl) {
     //evt.preventDefault();
     var title = tmpl.find('input[name=title]').value;
@@ -26,24 +26,37 @@ Template.post.events({
 });
 
 
-Template.approval.events({
+Template.Approval.events({
 
 });
 
-Template.dairysItem.events({
+Template.DairysItem.events({
   'click button[id=remove]': function () {
     Dairys.remove({_id: this._id});
   }
 });
 
-Template.dairysItemList.events({
+Template.DairysItemList.events({
   'click button[id=remove]': function () {
     Dairys.remove({_id: this._id});
     Router.go('main');
   }
 });
 
-Template.approval.rendered = function () {
+Template.Approval.rendered = function () {
 
 
+};
+
+Template.Front.rendered = function() {
+  $('#pinboard').imagesLoaded(function() {
+    $('#pinboard').isotope({
+      itemSelector: '.item-wrapper',
+      transformsEnabled: false
+    });
+  });
+};
+
+Template.DairysItem.rendered = function() {
+  $('#pinboard').isotope('reloadItems');
 };
