@@ -3,8 +3,13 @@ Coworker dairy app
 
 Coworker dairy app
 
+It's korean
+
 - Bootstrap Meterial
-- Korean
+- coffee
+- em
+- meteor.js
+- masonry
 
 Demo site
 
