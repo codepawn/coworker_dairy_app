@@ -11,6 +11,6 @@ Template.Front.rendered = function () {
     });
 
 
-  },200);
+  },500);
 
 };

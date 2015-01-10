@@ -40,3 +40,14 @@ Template.signup.events({
     })
   }
 });
+
+Template.signin.rendered = function(){
+  $.material.init()
+};
+Template.signup.rendered = function(){
+  $.material.init()
+};
+Template.Front.rendered = function(){
+  $.material.init()
+};
+
