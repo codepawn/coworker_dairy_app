@@ -11,6 +11,5 @@ accounts-password
 ian:accounts-ui-bootstrap-3
 fezvrasta:bootstrap-material-design
 jquery
-sjors:meteor-masonry
-mrt:jquery-imagesloaded
 less
+coffeescript

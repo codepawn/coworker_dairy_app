@@ -4,6 +4,28 @@ Template.Front.helpers({
   }
 });
 
+
+Template.Front.rendered = function () {
+
+  setTimeout(function(){
+
+
+    $('#container').imagesLoaded(function () {
+      var app = {
+        autoResize: true, // This will auto-update the layout when the browser window is resized.
+        container: $('#container') // Optional, used for some extra CSS styling
+      };
+
+      var handler = $('.item');
+      handler.wookmark(app);
+    });
+
+
+  }, 200);
+
+};
+
+
 Template.Post.events({
   'submit form': function (evt, tmpl) {
     //evt.preventDefault();
@@ -26,10 +48,6 @@ Template.Post.events({
 });
 
 
-Template.Approval.events({
-
-});
-
 Template.DairysItem.events({
   'click button[id=remove]': function () {
     Dairys.remove({_id: this._id});
@@ -43,20 +61,7 @@ Template.DairysItemList.events({
   }
 });
 
-Template.Approval.rendered = function () {
 
-
-};
-
-Template.Front.rendered = function() {
-  $('#pinboard').imagesLoaded(function() {
-    $('#pinboard').isotope({
-      itemSelector: '.item-wrapper',
-      transformsEnabled: false
-    });
-  });
-};
-
-Template.DairysItem.rendered = function() {
+Template.DairysItem.rendered = function () {
   $('#pinboard').isotope('reloadItems');
 };
