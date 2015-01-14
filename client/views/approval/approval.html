@@ -1,0 +1,26 @@
+<template name="Approval">
+  <div>
+    <button id="upload">Upload New Profile Image</button>
+  </div>
+  <br/>
+
+  <img src="{{filepickerIdToImageUrl myImageId h=200 w=200}}"/>
+
+  <img src="{{filepickerIdToImageUrl myImageId h=75 w=75 align='faces' fit='crop'}}"/>
+
+  <p>결재가 올라갈 직업을 선택해주세요</p>
+
+  <select class="form-control" id="genderInput">
+    <option value="7">사장</option>
+    <option value="6">전무</option>
+    <option value="5">이사</option>
+    <option value="4">부장</option>
+    <option value="3">차장</option>
+    <option value="2">과장</option>
+    <option value="1">대리</option>
+    <option value="0">사원</option>
+  </select>
+  <button id="remove" class="btn btn-primary">결재올리기
+    <div class="ripple-wrapper"></div>
+  </button>
+</template>

@@ -10,6 +10,5 @@ iron:router
 accounts-password
 ian:accounts-ui-bootstrap-3
 fezvrasta:bootstrap-material-design
-jquery
-less
 coffeescript
+natestrauser:filepicker-plus

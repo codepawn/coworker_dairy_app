@@ -1,1 +1,1 @@
-Meteor.subscribe('dairys');
+Meteor.subscribe('diarys');

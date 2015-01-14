@@ -1,7 +1,7 @@
-Coworker dairy app
+Coworker diary app
 ================
 
-Coworker dairy app
+Coworker diary app
 
 It's korean
 
@@ -9,7 +9,6 @@ It's korean
 - coffee
 - em
 - meteor.js
-- masonry
 
 Demo site
 
