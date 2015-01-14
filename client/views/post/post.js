@@ -10,13 +10,13 @@ Template.Post.events({
     if (title.length === 0) {
       alert('최소 1자이상 입력하세요');
     } else {
-      Dairys.insert({
+      Diarys.insert({
         title: title,
         content: content,
         user_id: userId,
 
       });
-      Router.go('Main');
+      Router.go('/');
     }
   }
 });

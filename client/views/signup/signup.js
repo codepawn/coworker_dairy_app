@@ -1,6 +1,8 @@
 Template.Signup.events({
   'click button[name=save]': function (evt, tmpl) {
 
+    evt.preventDefault();
+
     var id = tmpl.find('input[name=id]').value;
     var pwd = tmpl.find('input[name=password]').value;
     var rank = tmpl.find('select[name=rank]').value;
@@ -17,7 +19,7 @@ Template.Signup.events({
       if (err) {
         alert('다시시도' + err);
       } else {
-        Router.go('signin');
+        Router.go('Signin');
       }
 
     })

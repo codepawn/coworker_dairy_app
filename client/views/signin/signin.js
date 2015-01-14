@@ -1,6 +1,8 @@
 Template.Signin.events({
   'click button[name=logIn]': function (evt, tmpl) {
 
+    evt.preventDefault();
+
     var id = tmpl.find('input[name=username]').value;
     var pwd = tmpl.find('input[name=password]').value;
 
@@ -8,7 +10,7 @@ Template.Signin.events({
       if (err) {
         alert('다시시도' + err);
       } else {
-        Router.go('main');
+        Router.go('/');
       }
 
     })
