@@ -12,4 +12,4 @@ It's korean
 
 Demo site
 
-http://coworkerdairy.meteor.com/
+http://coworkerdiary.meteor.com/
