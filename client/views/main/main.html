@@ -1,22 +1,24 @@
 <template name="Main">
-  {{#if currentUser}}
+    {{#if currentUser}}
 
-  {{else}}
+    {{else}}
 
-    <div class="alert alert-dismissable alert-warning">
-      <button type="button" class="close" data-dismiss="alert">×</button>
-      <h4>로그인을 해주세요</h4>
+      <div class="alert alert-dismissable alert-warning">
+        <button type="button" class="close" data-dismiss="alert">×</button>
+        <h4>로그인을 해주세요</h4>
 
-      <p>로그인 하시면 모든 기능을 사용하실수 있습니다.</p>
-    </div>
-
-  {{/if}}
-
-  <div id="container">
-    {{#each diarys}}
-      <div class="item">
-        {{>Diarysitem}}
+        <p>로그인 하시면 모든 기능을 사용하실수 있습니다.</p>
       </div>
-    {{/each}}
+
+    {{/if}}
+
+
+  <div id="myContent">
+      {{#each diarys}}
+        <div class="item">
+            {{>Diarysitem}}
+        </div>
+      {{/each}}
   </div>
+
 </template>
