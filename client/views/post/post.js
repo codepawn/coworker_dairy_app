@@ -20,3 +20,12 @@ Template.Post.events({
     }
   }
 });
+
+
+Template.Post.rendered = function () {
+  $('#summernote').summernote({
+    height: 300,
+    width: 621,
+    lang: 'ko-KR'
+  });
+};
