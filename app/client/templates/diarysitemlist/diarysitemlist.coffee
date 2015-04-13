@@ -1,8 +1,7 @@
-# Diarysitemlist: Event Handlers and Helpers
 Template.Diarysitemlist.events
-# Example:
-#  "click .selector": (e, tmpl) ->
-#
+  'click button[id=remove]': ->
+    Diarys.remove id: @_id
+    Router.go 'home'
 
 Template.Diarysitemlist.helpers
 # Example:

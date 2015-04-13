@@ -17,8 +17,12 @@ Router.route 'Approval'
 
 Router.route 'Signup'
 
-Router.route '/diary/:_id', (->
-  @render 'Diarysitemlist', data: ->
-    Diarys.findOne _id: @params._id
-), name: 'Diary.show'
 Router.route 'Signin', name: 'Signin'
+
+Router.map ->
+  @route '/diary/:_id',
+    name: 'Diary.show'
+    controller: 'DiarysController'
+    action: 'action'
+    where: 'client'
+

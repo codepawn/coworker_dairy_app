@@ -1,8 +1,6 @@
-# Diarysitem: Event Handlers and Helpers
 Template.Diarysitem.events
-# Example:
-#  "click .selector": (e, tmpl) ->
-#
+  'click button[id=remove]': ->
+    Diarys.remove _id: @_id
 
 Template.Diarysitem.helpers
 # Example:

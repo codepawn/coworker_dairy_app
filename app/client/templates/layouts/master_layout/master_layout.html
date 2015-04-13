@@ -1,6 +1,4 @@
 <template name="MasterLayout">
-
-
   <div class="container">
     <nav class="navbar navbar-default">
       <div class="navbar-header">
@@ -12,29 +10,24 @@
         </button>
         <a class="navbar-brand" href="/">사내일지</a>
       </div>
-
       <div class="collapse navbar-collapse" id="bar">
-          {{#if currentUser}}
-            <ul class="nav navbar-nav">
-              <li><a href="post">일지쓰기</a></li>
-              <li><a href="approval">결재 <span class="badge">2{{countBox}}</span></a></li>
-            </ul>
-
-
-            <ul class="nav navbar-nav navbar-right">
-                {{> loginButtons}}
-            </ul>
-          {{else}}
-
-            <ul class="nav navbar-nav navbar-right">
-              <li><a href="signin">접속</a></li>
-              <li><a href="signup">가입</a></li>
-            </ul>
-          {{/if}}
-
+        {{#if currentUser}}
+          <ul class="nav navbar-nav">
+            <li><a href="post">일지쓰기</a></li>
+            <li><a href="approval">결재 <span class="badge">2{{countBox}}</span></a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            {{> loginButtons}}
+          </ul>
+        {{else}}
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="signin">접속</a></li>
+            <li><a href="signup">가입</a></li>
+          </ul>
+        {{/if}}
       </div>
     </nav>
-      {{>yield}}
+    {{>yield}}
   </div>
 
 </template>
