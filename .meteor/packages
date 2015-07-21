@@ -1,0 +1,28 @@
+# Meteor packages used by this project, one per line.
+# Check this file (and the other files in this directory) into your repository.
+#
+# 'meteor add' and 'meteor remove' will edit this file for you,
+# but you can also edit it by hand.
+
+meteor-platform
+accounts-password
+ian:accounts-ui-bootstrap-3
+fezvrasta:bootstrap-material-design
+coffeescript
+summernote:summernote
+less
+fourseven:scss
+aldeed:collection2
+aldeed:autoform
+msavin:mongol
+robodo:masonrify
+meteorhacks:flow-router
+meteorhacks:fast-render
+arillo:flow-router-helpers
+spectrum:material-design-lite
+msavin:jetsetter
+momentjs:moment
+mpowaga:autoform-summernote
+edgee:slingshot
+ryanswrt:autoform-slingshot
+meteorhacks:flow-layout
