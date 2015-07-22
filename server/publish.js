@@ -1,4 +1,4 @@
-mMeteor.publish('diarys', function() {
+Meteor.publish('diarys', function() {
   return Diarys.find();
 });
 

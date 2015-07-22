@@ -19,10 +19,10 @@ robodo:masonrify
 meteorhacks:flow-router
 meteorhacks:fast-render
 arillo:flow-router-helpers
-spectrum:material-design-lite
 msavin:jetsetter
 momentjs:moment
 mpowaga:autoform-summernote
 edgee:slingshot
 ryanswrt:autoform-slingshot
 meteorhacks:flow-layout
+fortawesome:fontawesome

@@ -1,4 +1,4 @@
-<template name="Home">
+<template name="home">
   {{#if currentUser}}
   {{else}}
     <div class="alert alert-dismissable alert-warning">
@@ -9,12 +9,17 @@
     </div>
   {{/if}}
 
+  {{#each asdf }}
+    {{title}}
+  {{/each}}
+
   {{#masonryContainer columnWidth=0 transitionDuration="0.1s" id="MasonryContainer" }}
-    {{#each diarys}}
+    {{#each diarysData}}
+      <h1>goo</h1>
       {{#masonryElement "MasonryContainer"}}
-        {{>Diarysitem}}
+        <h1>goo</h1>
+        {{>diarysItem}}
       {{/masonryElement}}
     {{/each}}
   {{/masonryContainer}}
-
 </template>
