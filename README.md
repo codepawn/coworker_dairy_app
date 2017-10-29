@@ -18,7 +18,7 @@ Demo site
 ![alt tag](img/1.png)
 
 
-![alt tag](img/1.png)
+![alt tag](img/2.png)
 
 
-![alt tag](img/1.png)
+![alt tag](img/3.png)
